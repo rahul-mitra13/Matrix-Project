@@ -1,0 +1,30 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from numpy import linalg as LA
+B = np.matrix([[1, 2, 3], [3, 2, 1], [1,0,-1]])
+print('This is the orginal matrix: ')
+print(B)
+print(' ')
+print('This is the transpose matrix: ')
+print(B.T)
+print ('')
+print('This is the Hermatian: ')
+print(B.H)
+print('')
+print('This is the inverse matrix: ')
+print(B.I)
+print('')
+print("This is the trace of the matrix: ")
+print(np.trace(B))
+print('')
+print("The determinant of the matrix is: ")
+print(np.linalg.det(B))
+print('')
+print("The Eigenvalues are: ")
+e_vals, e_vecs = LA.eig(B)
+print(e_vals)
+print('')
+print("The Eigenvectors are: ")#each column corresponds to an eigenvector
+print(e_vecs)
+print('')
+
