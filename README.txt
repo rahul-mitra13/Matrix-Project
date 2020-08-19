@@ -1,1 +1,1 @@
-Math Methods fo Physics final Project - Game physics demonstrations using Mathematica. 
+Math Methods for Physics final Project - Simple game physics demonstrations using Mathematica. You need Mathematica to compile. To run, open source in Mathematica and compile all files together. 
